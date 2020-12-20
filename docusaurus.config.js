@@ -22,7 +22,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'docs/docs2/', activeBasePath: 'docs/docs2', label: 'Doc2s', position: 'left'},
+        //{to: 'docs/docs2/', activeBasePath: 'docs/docs2', label: 'Doc2s', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
