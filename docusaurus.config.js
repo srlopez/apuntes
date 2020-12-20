@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: 'ApuntEs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ApuntEs',
         src: 'img/logo.svg',
       },
       items: [
@@ -22,8 +22,8 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {to: 'docs/docs2/', activeBasePath: 'docs/docs2', label: 'Doc2s', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'blog2', label: 'Blog2', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -87,6 +87,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/',
+        },        
+        docs2: {
+          sidebarPath: require.resolve('./sidebars2.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
